@@ -1,0 +1,14 @@
+### Project common configuration
+- CURRENCY:
+    CASE_TYPE: 'web'                   # project type  web / app
+    IS_CLEAN_REPORT: True              # clean the history testing report, default clear
+    LEVEL: 'DEBUG'                     # log level
+
+### web ui configuration https://www.google.com/
+- WEB_UI:
+    WEB_BROWSER: 'Chrome'              # browser type: Chrome / Firefox / Ie / Safari
+    WEB_URL: 'https://www.baidu.com'  # url address
+    WEB_IMPLICITLY_WAIT_TIME: 10       # implicitly wait time: S
+    WEB_POLL_FREQUENCY: 0.2            # search once during this period after the factor appears: S
+    WEB_IS_COLONY: False               # start cluster, default False
+    WEB_HUB_HOST: '192.168.1.91:4444'  # url and port of web cluster hub, its mandatory when using cluster mode

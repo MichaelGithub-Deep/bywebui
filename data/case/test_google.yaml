@@ -1,0 +1,12 @@
+- model: TestGoogle                  # class name of testing case
+
+- case_name: test_google_search      # testing name of function
+  title: 'input searching content'   # title
+  precondition:                      # precondition if there is any
+  testdata:                          # testing data
+    - content: python
+    - content: java
+    - content: c++
+    - content: go
+    - content: shell
+    - content: c#

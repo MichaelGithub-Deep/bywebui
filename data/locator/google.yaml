@@ -1,0 +1,25 @@
+- model: Google
+
+- case_name: input_search_content
+  precondition:
+  test_data:
+  element:
+    - case_step_id: 1
+      types: name
+      operate: input
+      locate: wd
+      list_index:
+      local_wait:
+      info: "click input button and type in"
+
+- case_name: click_search_button
+  precondition:
+  test_data:
+  element:
+    - case_step_id: 2
+      types: id
+      operate: click
+      locate: su
+      list_index:
+      local_wait:
+      info: "click search button"
