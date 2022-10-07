@@ -1,5 +1,6 @@
 # 1. Project Info
 ## 1.1. Project catalog
+```bash
 common
     - common.py （logger,deleteReport）
     - driver_init.py (initialize driver)
@@ -19,6 +20,7 @@ page_object
     - page_object
 result (testing result)
 testcase (test scripts)
+```
     
 
 # 2. How to use the project
